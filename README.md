@@ -1,7 +1,27 @@
 # Análisis
-Realizar análisis.  
+
 
 ## Sistema de calicifaciones de Películas  
+### 1. ¿Qué propiedades y métodos tendrá cada clase?  
+#### Usuario   
+- nombre
+- nombreUsuario
+- edad  
+- calificaciones
+- cantidadCalificaciones
+- registrarCalificacion(int): void  
+- consultarCalificaciones(): void  
+- consultarPelicula(int): int  
+- modificarCalificacion(int, int): void  
+- calcularPromedio(): double  
+- obtenerMayor(): int  
+- obtenerMenor(): int  
+- espaciosDisponibles(): int
+
+### Pelicula  
+- numeroPelicula: int  
+- getNumeroPelicula(): int  
+  
 ### 2. ¿Qué tipo deben tener las propiedades y métodos de cada clase?  
 
 #### Usuario   
@@ -20,6 +40,9 @@ Realizar análisis.
 - espaciosDisponibles(): int  
 
 #### Película  
+- nombre
+- Genero
+- anio
 - numeroPelicula: int  
 - getNumeroPelicula(): int  
 
