@@ -23,7 +23,12 @@
 - Genero
 - anio
 - numeroPelicula 
-- getNumeroPelicula() 
+- getNumeroPelicula()
+
+### Calificaciones  
+- id
+- pelicula
+- calificacion
   
 ### 2. ¿Qué tipo deben tener las propiedades y métodos de cada clase?  
 
@@ -47,7 +52,12 @@
 - genero: Genero
 - anio: int
 - numeroPelicula: int  
-- getNumeroPelicula(): int  
+- getNumeroPelicula(): int
+
+### Calificaciones  
+- id: int
+- pelicula: Pelicula
+- calificacion: float
 
 ### 3. ¿Cuál de las propiedades identificadas debe implementarse utilizando un arreglo? ¿Qué tipo de datos almacenará?  
 - Propiedad: calificaciones  
@@ -93,7 +103,6 @@
 - Antes de registrar se verificará que cantidadCalificaciones < 10.  
 
 ### 8. ¿Cómo recorrerá únicamente las posiciones del arreglo que contienen calificaciones registradas?
-
 - El recorrido comenzará en el índice 0.  
 - cantidadCalificaciones se utilizará como límite del recorrido.  
 - Se recorrerán las posiciones desde 0 hasta cantidadCalificaciones - 1.  
