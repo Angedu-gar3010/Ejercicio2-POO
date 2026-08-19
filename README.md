@@ -1,6 +1,6 @@
 # Análisis
-Angel García 26264
-Enmanuel García 26846
+Angel García 26264  
+Enmanuel García 26846  
 
 ## Sistema de calicifaciones de Películas  
 ### 1. ¿Qué propiedades y métodos tendrá cada clase?  
