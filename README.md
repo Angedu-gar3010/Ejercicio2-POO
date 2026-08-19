@@ -9,18 +9,21 @@
 - edad  
 - calificaciones
 - cantidadCalificaciones
-- registrarCalificacion(int): void  
-- consultarCalificaciones(): void  
-- consultarPelicula(int): int  
-- modificarCalificacion(int, int): void  
-- calcularPromedio(): double  
-- obtenerMayor(): int  
-- obtenerMenor(): int  
-- espaciosDisponibles(): int
+- registrarCalificacion()    
+- consultarCalificaciones()  
+- consultarPelicula()  
+- modificarCalificacion()  
+- calcularPromedio()  
+- obtenerMayor()  
+- obtenerMenor()  
+- espaciosDisponibles()
 
 ### Pelicula  
-- numeroPelicula: int  
-- getNumeroPelicula(): int  
+- nombre
+- Genero
+- anio
+- numeroPelicula 
+- getNumeroPelicula() 
   
 ### 2. ¿Qué tipo deben tener las propiedades y métodos de cada clase?  
 
@@ -40,9 +43,9 @@
 - espaciosDisponibles(): int  
 
 #### Película  
-- nombre
-- Genero
-- anio
+- nombre: String
+- genero: Genero
+- anio: int
 - numeroPelicula: int  
 - getNumeroPelicula(): int  
 
